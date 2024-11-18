@@ -59,7 +59,7 @@ async function loadLists() {
   Button1.className = "bg-rose-400 px-2 py-1 rounded m-1";
 
   const Button2 = document.createElement("button");
-  Button2.innerHTML = `Expense : ${netIncome}`;
+  Button2.innerHTML = `Net Income : ${netIncome}`;
 
   Button2.className = "bg-violet-400 px-2 py-1 rounded m-1";
   List.append(Button, Button1, Button2);
